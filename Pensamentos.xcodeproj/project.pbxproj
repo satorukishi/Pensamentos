@@ -8,12 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		AC16BA422059DABB00EF0322 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC16BA412059DABB00EF0322 /* AppDelegate.swift */; };
-		AC16BA442059DABB00EF0322 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC16BA432059DABB00EF0322 /* ViewController.swift */; };
+		AC16BA442059DABB00EF0322 /* QuotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC16BA432059DABB00EF0322 /* QuotesViewController.swift */; };
 		AC16BA472059DABB00EF0322 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC16BA452059DABB00EF0322 /* Main.storyboard */; };
 		AC16BA492059DABB00EF0322 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC16BA482059DABB00EF0322 /* Assets.xcassets */; };
 		AC16BA4C2059DABB00EF0322 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC16BA4A2059DABB00EF0322 /* LaunchScreen.storyboard */; };
 		AC16BA572059DABB00EF0322 /* PensamentosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC16BA562059DABB00EF0322 /* PensamentosTests.swift */; };
 		AC16BA622059DABB00EF0322 /* PensamentosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC16BA612059DABB00EF0322 /* PensamentosUITests.swift */; };
+		AC16BA702059E24400EF0322 /* SaveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC16BA6F2059E24400EF0322 /* SaveViewController.swift */; };
+		AC16BA722059E25300EF0322 /* ConfigViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC16BA712059E25300EF0322 /* ConfigViewController.swift */; };
+		ACC8A2462059F54500FB2345 /* QuotesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC8A2452059F54500FB2345 /* QuotesManager.swift */; };
+		ACC8A2482059F59400FB2345 /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC8A2472059F59400FB2345 /* Quote.swift */; };
+		ACC8A24A2059F6E100FB2345 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = ACC8A2492059F6E100FB2345 /* Contents.json */; };
+		ACC8A24E2059F74000FB2345 /* quotes.json in Resources */ = {isa = PBXBuildFile; fileRef = ACC8A24D2059F74000FB2345 /* quotes.json */; };
+		ACC8A2502059FCE800FB2345 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC8A24F2059FCE800FB2345 /* Configuration.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +43,7 @@
 /* Begin PBXFileReference section */
 		AC16BA3E2059DABB00EF0322 /* Pensamentos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pensamentos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC16BA412059DABB00EF0322 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AC16BA432059DABB00EF0322 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AC16BA432059DABB00EF0322 /* QuotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesViewController.swift; sourceTree = "<group>"; };
 		AC16BA462059DABB00EF0322 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AC16BA482059DABB00EF0322 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC16BA4B2059DABB00EF0322 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +54,13 @@
 		AC16BA5D2059DABB00EF0322 /* PensamentosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PensamentosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC16BA612059DABB00EF0322 /* PensamentosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PensamentosUITests.swift; sourceTree = "<group>"; };
 		AC16BA632059DABB00EF0322 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC16BA6F2059E24400EF0322 /* SaveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveViewController.swift; sourceTree = "<group>"; };
+		AC16BA712059E25300EF0322 /* ConfigViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigViewController.swift; sourceTree = "<group>"; };
+		ACC8A2452059F54500FB2345 /* QuotesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesManager.swift; sourceTree = "<group>"; };
+		ACC8A2472059F59400FB2345 /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
+		ACC8A2492059F6E100FB2345 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		ACC8A24D2059F74000FB2345 /* quotes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = quotes.json; path = "../../../Downloads/pensamentos-files/quotes.json"; sourceTree = "<group>"; };
+		ACC8A24F2059FCE800FB2345 /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +112,15 @@
 			isa = PBXGroup;
 			children = (
 				AC16BA412059DABB00EF0322 /* AppDelegate.swift */,
-				AC16BA432059DABB00EF0322 /* ViewController.swift */,
+				ACC8A2492059F6E100FB2345 /* Contents.json */,
+				ACC8A2452059F54500FB2345 /* QuotesManager.swift */,
+				ACC8A24D2059F74000FB2345 /* quotes.json */,
+				ACC8A2472059F59400FB2345 /* Quote.swift */,
+				AC16BA432059DABB00EF0322 /* QuotesViewController.swift */,
+				ACC8A24F2059FCE800FB2345 /* Configuration.swift */,
 				AC16BA452059DABB00EF0322 /* Main.storyboard */,
+				AC16BA6F2059E24400EF0322 /* SaveViewController.swift */,
+				AC16BA712059E25300EF0322 /* ConfigViewController.swift */,
 				AC16BA482059DABB00EF0322 /* Assets.xcassets */,
 				AC16BA4A2059DABB00EF0322 /* LaunchScreen.storyboard */,
 				AC16BA4D2059DABB00EF0322 /* Info.plist */,
@@ -233,8 +254,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC16BA4C2059DABB00EF0322 /* LaunchScreen.storyboard in Resources */,
+				ACC8A24E2059F74000FB2345 /* quotes.json in Resources */,
 				AC16BA492059DABB00EF0322 /* Assets.xcassets in Resources */,
 				AC16BA472059DABB00EF0322 /* Main.storyboard in Resources */,
+				ACC8A24A2059F6E100FB2345 /* Contents.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +282,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC16BA442059DABB00EF0322 /* ViewController.swift in Sources */,
+				ACC8A2462059F54500FB2345 /* QuotesManager.swift in Sources */,
+				AC16BA442059DABB00EF0322 /* QuotesViewController.swift in Sources */,
+				ACC8A2502059FCE800FB2345 /* Configuration.swift in Sources */,
 				AC16BA422059DABB00EF0322 /* AppDelegate.swift in Sources */,
+				AC16BA722059E25300EF0322 /* ConfigViewController.swift in Sources */,
+				ACC8A2482059F59400FB2345 /* Quote.swift in Sources */,
+				AC16BA702059E24400EF0322 /* SaveViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
